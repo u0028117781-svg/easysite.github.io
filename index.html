@@ -5,18 +5,26 @@
   <title>GLOBALWEB SOLUCIONES DIGITALES – Catálogo</title>
   <style>
     :root {
-      --bg: #0f172a; --card: #111827; --text: #e5e7eb; --muted: #94a3b8;
-      --accent: #22c55e; --border: #1f2937;
+      --bg: #d9f2e6; /* verde suave */
+      --card: #ffffff; 
+      --text: #0f172a; 
+      --muted: #4b5563;
+      --accent: #22c55e; 
+      --border: #cbd5e1;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
-           background: linear-gradient(180deg, #0b1020, #0f172a); color: var(--text); }
+    body { 
+      margin: 0; 
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      background: var(--bg); 
+      color: var(--text); 
+    }
     header { padding: 64px 24px; text-align: center; }
     header h1 { margin: 0 0 12px; font-size: 2rem; text-transform: uppercase; }
     header p { margin: 0 auto; max-width: 720px; color: var(--muted); }
     .container { max-width: 1100px; margin: 0 auto; padding: 24px; }
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
-    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
     .card h3 { margin: 0 0 8px; font-size: 1.2rem; text-transform: uppercase; }
     .price { color: var(--accent); font-weight: 600; margin-bottom: 8px; }
     .meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 10px; }
